@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where java:*)",
+      "Read(//c/Program Files/**)",
+      "Bash(ls:*)",
+      "Bash(cmd.exe /c \"where java\" 2>/dev/null; cmd.exe /c \"java -version\" 2>&1)",
+      "Bash(curl:*)"
+    ]
+  }
+}
